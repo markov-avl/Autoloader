@@ -2,9 +2,9 @@
 
 function tryToPlay(\Entertainment\GamingConsoles\GamingConsole $gamingConsole, \Entertainment\Game $game): void
 {
-    echo "Trying to play " . $game->getName() . " on " . $gamingConsole->getName() . ":" . PHP_EOL;
+    echo "<strong>Trying to play " . $game->getName() . " on " . $gamingConsole->getName() . ":</strong><br>";
     $gamingConsole->play($game);
-    echo PHP_EOL . PHP_EOL;
+    echo "<br><br>";
 }
 
 
